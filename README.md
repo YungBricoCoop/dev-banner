@@ -2,7 +2,7 @@
 
 **A simple React component to display a development mode banner.**
 
-It uses the `process.env.NODE_ENV` variable to determine whether the application is running in a production environment. If not, it displays a banner at the top of the page to indicate that the application is in development mode.
+It uses the `isDev` prop to determine whether the application is in development mode. You can define the value of `isDev` based on your requirements. For example, you can make it depend on the `vite` environment mode or the hostname, or any other condition you can imagine. If `isDev` is `true`, it will display a banner at the top of the page to indicate that the application is in development mode.
 
 ## ✨ Features
 
