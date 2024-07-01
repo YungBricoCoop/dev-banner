@@ -1,7 +1,7 @@
 {
     "name": "dev-banner",
     "private": false,
-    "version": "0.0.0",
+    "version": "0.0.2",
     "type": "module",
     "main": "./dist/index.umd.js",
     "module": "./dist/index.es.js",
@@ -20,6 +20,15 @@
         "type": "git",
         "url": "https://github.com/YungBricoCoop/dev-banner"
     },
+    "keywords": [
+        "dev",
+        "banner",
+        "vite",
+        "react"
+    ],
+    "license": "MIT",
+    "author": "YungBricoCoop",
+    "description": "A simple dev banner for vite",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
